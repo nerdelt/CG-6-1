@@ -24,7 +24,7 @@ namespace FullName3
             * Initally this is how I did the assignment, but I was so scared I would get points 
             * off for not including it in a method and returning a new value that I went ahead and 
             * put it inside a method. Just wanted to know if this was a correct way of 
-            * tacking the assignment as well, so I left it in.
+            * tackling the assignment as well, so I left it in.
             
             //create StringBuilder to format name string
              StringBuilder fullName = new StringBuilder();
