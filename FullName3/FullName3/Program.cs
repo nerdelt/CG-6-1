@@ -30,7 +30,7 @@ namespace FullName3
              StringBuilder fullName = new StringBuilder();
 
             //appends input to StringBuilder to create a full name string
-             fullName.AppendFormat("{0} {1}", firstName, lastName);
+             fullName.AppendFormat($"{firstName} {lastName}");
 
             //prints result, using FullName method
             Console.WriteLine($"Hello, {fullName}!");
@@ -49,7 +49,7 @@ namespace FullName3
                  StringBuilder fullName = new StringBuilder();
 
                 //combines strings and formats full name
-                 fullName.AppendFormat("{0} {1}", firstName, lastName);
+                 fullName.AppendFormat($"{firstName} {lastName}");
 
                  //returns new StringBuilder value as string  
                  return fullName.ToString();
